@@ -1,0 +1,13 @@
+DAO => Data Access Object
+
+class Usuario { //Classe específica a ser manipulada
+    - atributos
+    - métodos
+    - encapsulamento
+}
+
+class UsuarioDAO { //Classe especifica para intermediar a classe e o bd
+    - Recebe a class Usuario para:
+        - Métodos CRUD
+        - Métodos de Manipulação de BD
+}
